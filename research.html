@@ -157,9 +157,12 @@
             <div class="col-md-5">
                 <h3>Crazyswarm</h3>
                 <!--h4>Subheading</h4-->
-                <p>We develop a system architecture for a large swarm of miniature quadcopters (Crazyflie 2.0). We investigate onboard planning,
-                    control, state estimation, communications, and a method for motion-capture localization using identical marker arrangements.
-                    We validate the system with a 49-vehicle formation flight.</p>
+                <p>
+                  The Crazyswarm is a swarm of miniature quadcopters (Crazyflie 2.0) that can fly together in close proximity.
+                  The size of the quadrotors allows safe operations near humans and indoor experiments with many vehicles even in tight lab spaces.
+                  The hardware is commercially available and the software (including ROS support) is available as open source.
+                  We use and maintain the Crazyswarm for research in multi-robot coordination.
+                  </p>
                 <a class="btn btn-primary" href="crazyswarm.html">View Project</i></a>
             </div>
         </div>
@@ -188,15 +191,20 @@
         <!-- Project -->
         <div class="row">
             <div class="col-md-7">
-                <a href="multi-target-tracking.html">
-                    <img class="img-responsive img-hover" src="images/multi-target-tracking1.png" alt="">
+                <a href="fast-planning.html">
+                    <img class="img-responsive img-hover" src="images/fast-planning1.jpg" alt="">
                 </a>
             </div>
             <div class="col-md-5">
-                <h3>Heterogeneous Multi-Target Tracking</h3>
+                <h3>Task and Motion Planning for Multi-Robot Systems</h3>
                 <!--h4>Subheading</h4-->
-                <p>We investigate algorithms for mobile robotic cameras to maximize the visual coverage of multiple moving targets in dynamic environments including obstacles. This approach has a variety of applications, including for surveillance, sports events, training, and documentation of endangered animals.</p>
-                <a class="btn btn-primary" href="multi-target-tracking.html">View Project</i></a>
+                <p>Traditional single-robot algorithms tend to be slow if applied to groups of robots due to the increased dimensionality of the state space.
+                On the other hands, multi-agent solutions from the artificial intelligence community can often not be directly applied to robots because they make invalid, simplifying assumptions.
+                </p>
+                <p>
+                We investigate solutions that bridge the gap between AI and robotics, allowing to plan for large multi-robot systems.
+                </p>
+                <a class="btn btn-primary" href="fast-planning.html">View Project</i></a>
             </div>
         </div>
         <!-- /.row -->
@@ -224,29 +232,6 @@
         <!-- Project -->
         <div class="row">
             <div class="col-md-7">
-                <a href="fast-planning.html">
-                    <img class="img-responsive img-hover" src="images/fast-planning1.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-md-5">
-                <h3>Fast Planning for Multiple Robots</h3>
-                <!--h4>Subheading</h4-->
-                <p>Traditional single-robot algorithms tend to be slow if applied to groups of robots due to the increased dimensionality of the state space.
-                We investigate planning algorithms which can be used or updated online for large groups of robots.
-                </p>
-                <p>
-                Fast planning is required in many applications in robotics, including robots for warehouses and manufacturing, construction tasks, and formation control.
-                </p>
-                <a class="btn btn-primary" href="fast-planning.html">View Project</i></a>
-            </div>
-        </div>
-        <!-- /.row -->
-
-        <hr>
-
-        <!-- Project -->
-        <div class="row">
-            <div class="col-md-7">
                 <a href="mixed-reality.html">
                     <img class="img-responsive img-hover" src="images/mixed_real_1.png" alt="">
                 </a>
@@ -254,7 +239,8 @@
             <div class="col-md-5">
                 <h3>Mixed Reality for Robotics</h3>
                 <!--h4>Subheading</h4-->
-                <p>Mixed Reality can be a valuable tool for research and development in robotics. Specifically, our approach reduces the gap between simulation and implementation, and can eliminate safety concerns with human-robot interaction.</p>
+                <p>Mixed Reality can be a valuable tool for research and development in robotics. Specifically, our approach reduces the gap between simulation and implementation, and can eliminate safety concerns with human-robot interaction.
+                </p>
                 <a class="btn btn-primary" href="mixed-reality.html">View Project</i></a>
             </div>
         </div>
@@ -265,20 +251,43 @@
         <!-- Project -->
         <div class="row">
             <div class="col-md-7">
-                <a href="actbot.html">
-                    <img class="img-responsive img-hover" src="images/actbot_1.png" alt="">
+                <a href="multi-target-tracking.html">
+                    <img class="img-responsive img-hover" src="images/multi-target-tracking1.png" alt="">
                 </a>
             </div>
             <div class="col-md-5">
-                <h3>ACTBot</h3>
+                <h3>Heterogeneous Multi-Target Tracking</h3>
                 <!--h4>Subheading</h4-->
-                <p>Development of a differential-drive robot platform.</p>
-                <a class="btn btn-primary" href="actbot.html">View Project</i></a>
+                <p>We investigate algorithms for mobile robotic cameras to maximize the visual coverage of multiple moving targets in dynamic environments including obstacles. This approach has a variety of applications, including for surveillance, sports events, training, and documentation of endangered animals.</p>
+                <a class="btn btn-primary" href="multi-target-tracking.html">View Project</i></a>
             </div>
         </div>
         <!-- /.row -->
 
         <hr>
+
+        <a href="#oldProjects" data-toggle="collapse">Old Projects...</a>
+        <div id="oldProjects" class="collapse">
+
+          <!-- Project -->
+          <div class="row">
+              <div class="col-md-7">
+                  <a href="actbot.html">
+                      <img class="img-responsive img-hover" src="images/actbot_1.png" alt="">
+                  </a>
+              </div>
+              <div class="col-md-5">
+                  <h3>ACTBot</h3>
+                  <!--h4>Subheading</h4-->
+                  <p>Development of a differential-drive robot platform.</p>
+                  <a class="btn btn-primary" href="actbot.html">View Project</i></a>
+              </div>
+          </div>
+          <!-- /.row -->
+
+        </div>
+
+        <!-- <hr> -->
 
         <!-- Pagination -->
         <div class="row text-center">

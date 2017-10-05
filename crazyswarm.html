@@ -99,28 +99,51 @@
             <div class="col-lg-12">
                 <h3>Description</h3>
                     <p>
-                    We develop a system architecture for a large swarm of miniature quadcopters (Crazyflie 2.0). We investigate onboard planning,
-                    control, state estimation, communications, and a method for motion-capture localization using identical marker arrangements.
-                    We validate the system with a 49-vehicle formation flight.
+                     The Crazyswarm is a swarm of miniature quadcopters (Crazyflie 2.0) that can fly together in close proximity. Our approach has the goal to make research in multi-robot systems safer, cheaper, and easier to reproduce. The Crazyswarm has the following features (amongst others):
+                     <ul>
+                        <li>Safe operation near humans</li>
+                        <li>Small footprint allows to fly many vehicles in small lab spaces</li>
+                        <li>Good crash resistance because of low inertia</li>
+                        <li>Fully open-source</li>
+                        <li>Off-the-shelf hardware</li>
+                    </ul>
+                    The system currently requires a motion capture system (e.g. VICON, OptiTrack, or PhaseSpace).
                     </p>
 
+                    <p>
+                    More information, including tutorials on how to setup the Crazyswarm, can be found on its <a href="http://crazyswarm.readthedocs.io/en/latest/">webpage</a>.
+                    A video demonstrating the swarms' capabilities is shown below.
+                    </p>
+
+                    <p>
                     <div align="center" class="embed-responsive embed-responsive-16by9">
                      <iframe
                         src="https://www.youtube.com/embed/D0CrjoYDt9w">
                      </iframe>
                     </div>
+                    </p>
+
+                    <p>
+                    We used the Crazyswarm to experimentally validate our trajectory planning approach for large quadrotor teams (see related publications below). In the future, we are looking at other applications, including distributed algorithms.
+                    </p>
 
                 <h3>Investigators</h3>
                 <p>
                 In collaboration with the <a href="http://robotics.usc.edu/resl/">Robotic Embedded Systems Laboratory</a> (RESL).
                 </p>
                 <ul>
-                    <li>Wolfgang Hönig</li>
-                    <li>James Preiss (RESL)</li>
-                    <li>Gaurav Sukhatme (RESL)</li>
-                    <li>Minzhi Xue</li>
-                    <li>Chotiwat Chawannakul</li>
-                    <li>Nora Ayanian</li>
+                    <li>Wolfgang Hönig (Summer 2016 - )</li>
+                    <li>James Preiss (RESL) (Summer 2016 - )</li>
+                    <li>Gaurav Sukhatme (RESL) (Summer 2016 - )</li>
+                    <li>Nora Ayanian (Summer 2016 - )</li>
+                    <li>Daniel Lytle (Fall 2016 - )</li>
+                    <li>Trevor Nielsen (Fall 2016 - )</li>
+                    <li>Eric Yi Han Chen (Fall 2016 - )</li>
+                    <li>Alex Colello (Fall 2017 - )</li>
+                    <li>Barbara Boyajian (Fall 2017 - )</li>
+                    <li>Jillian Khoo (Fall 2017 - )</li>
+                    <li>Minzhi Xue (Fall 2015 - Spring 2016)</li>
+                    <li>Chotiwat Chawannakul (Summer 2016 - Summer 2017)</li>
                 </ul>
 
                 <h3>Related Publications</h3>
@@ -128,7 +151,7 @@
                     <li>
                         J. A. Preiss, <strong>W. Hönig</strong>, G. S. Sukhatme, and <strong>N. Ayanian</strong>.
                         "Downwash-Aware Trajectory Planning for Large Quadrotor Teams",
-                        in Proc. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), 2017. Accepted, to appear.
+                        in Proc. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS), Vancouver, BC, Canada, September 2017.
                         <br>
                         [
                             <a href="publications/Preiss_IROS2017.pdf">PDF Preprint</a>,
@@ -137,8 +160,26 @@
                     </li>
                     <li>
                         J. A. Preiss, <strong>W. Hönig</strong>, G. S. Sukhatme, and <strong>N. Ayanian</strong>.
+                        "Downwash-Aware Trajectory Planning for Quadrotor Swarms",
+                        in International Symposium on Aerial Robotics, Philadelphia, PA, USA, June 2017.
+                        <br>
+                        [
+                            <a href="publications/Preiss_ISAR2017.pdf">PDF Preprint</a>
+                        ]
+                    </li>
+                    <li>
+                        J. A. Preiss, <strong>W. Hönig</strong>, G. S. Sukhatme, and <strong>N. Ayanian</strong>.
+                        "Downwash-Aware Trajectory Planning for Large Quadcopter Teams",
+                        in Southern California Robotics Symposium (SCR), Los Angeles, CA, April 2017.
+                        <br>
+                        [
+                            <a href="publications/Preiss_SCR2017.pdf">PDF Preprint</a>
+                        ]
+                    </li>
+                    <li>
+                        J. A. Preiss*, <strong>W. Hönig*</strong>, G. S. Sukhatme, and <strong>N. Ayanian</strong>.
                         "Crazyswarm: A Large Nano-Quadcopter Swarm",
-                        in Proc. IEEE International Conference on Robotics and Automation, 2017. Accepted, to appear.
+                        in Proc. IEEE International Conference on Robotics and Automation, Singapore, 2017.
                         <br>
                         [
                             <a href="publications/Preiss_ICRA2017.pdf">PDF Preprint</a>,
@@ -146,9 +187,9 @@
                         ]
                     </li>
                     <li>
-                        J. A. Preiss, <strong>W. Hönig</strong>, G. S. Sukhatme, and <strong>N. Ayanian</strong>.
+                        J. A. Preiss*, <strong>W. Hönig*</strong>, G. S. Sukhatme, and <strong>N. Ayanian</strong>.
                         "Crazyswarm: A Large Nano-Quadcopter Swarm (Extended Abstract)",
-                        in Proc. IEEE/RSJ Int. Conf. Intell. Robots Syst. (Late Breaking), 2016. Accepted, to appear.
+                        in Proc. IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS) (Late Breaking), Daejeon, Korea, October 2016.
                         <br>
                         [
                             <a href="publications/Preiss_IROSLateBreaking2016.pdf">PDF Preprint</a>,
@@ -157,7 +198,12 @@
                     </li>
                 </ul>
 
-
+                <h3>Media Coverage</h3>
+                <ul>
+                    <li>
+                        <a href="https://www.usatoday.com/story/tech/talkingtech/2017/03/31/you-can-teach-drones-fly-together-just-ask-their-instructor/99848778/">USA Today</a>
+                    </li>
+                </ul>
             </div>
 
         </div>
