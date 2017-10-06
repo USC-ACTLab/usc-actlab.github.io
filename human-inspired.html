@@ -135,13 +135,13 @@
         <!-- Page Heading/Breadcrumbs -->
         <div class="row">
             <div class="col-lg-12">
-                <h1 class="page-header">Crowdsourced Multirobot Coordination
+                <h1 class="page-header">Human-Inspired Multirobot Coordination
                     <!--small>Subheading</small-->
                 </h1>
                 <ol class="breadcrumb">
                     <li><a href="index.html">Home</a>
                     </li>
-                    <li class="active">Crowdsourced Multirobot Coordination</li>
+                    <li class="active">Human-Inspired Multirobot Coordination</li>
                 </ol>
             </div>
         </div>
@@ -156,23 +156,15 @@
                     <ol class="carousel-indicators">
                         <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
                         <li data-target="#carousel-example-generic" data-slide-to="1"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
-                        <li data-target="#carousel-example-generic" data-slide-to="3"></li>
                     </ol>
 
                     <!-- Wrapper for slides -->
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img class="img-responsive" src="images/clientapp_2.png" alt="">
+                            <img class="img-responsive" src="images/client_both.png" alt="">
                         </div>
                         <div class="item">
-                            <img class="img-responsive" src="images/task_5.png" alt="">
-                        </div>
-                        <div class="item">
-                            <img class="img-responsive" src="images/task_6.png" alt="">
-                        </div>
-                        <div class="item">
-                            <img class="img-responsive" src="images/task_7.png" alt="">
+                            <img class="img-responsive" src="images/local_views.png" alt="">
                         </div>
                     </div>
 
@@ -190,21 +182,25 @@
         <div class="row">
             <div class="col-lg-12">
                 <h3><strong>Description</strong></h3>
-                    <p>We investigate possible approaches to modelling human group behavior and coordination when solving collective tasks. We conduct experiments on groups of humans and study the group behaviors that emerge. The study of such behaviors allows us to mathematically express models that present the human decision-making process which can then be used as algorithms for distributed coordination of large groups of robots to solve complex distributed problems. </p>
-                <p>The video below demonstrates the animated data collected from one of the seven tasks conducted in our recent investigation. Here, the participants were asked to form a rectangle of a unified color using the local and global information available to them through their GUIs.
+                    <p>Tasks requiring tight coordination between groups of robots are very challenging. Typical approaches use groups with fixed hierarchies or the same simple algorithms on all robots, which may not work for unknown environments and complex problems. However, humans are very good at coordinating and adapting to changes in the environment. A major reason for this is their diversity. In a group, humans take different roles and work together to reach a better solution than they would individually. </p>
+
+<p> To understand the behaviors humans use to cooperate, we have developed an online multiplayer game in which a group of players must arrange themselves in a formation using only a limited view of their immediate surroundings, simulating a robot with a lidar sensor. We have observed that humans learn to complete this task efficiently, and take on diverse roles to ensure group success. Every group has some players who take a leading role and direct others into place, some who collaborate by joining groups and forming lines, and some who create anchors for the group to form around. Over several consecutive games, players maintain the same roles, and the group learns to tightly coordinate their actions. We plan to train diverse groups of autonomous agents and robots to use these same behaviors to coordinate on shape formation and other complex tasks. </p>
+
+                <p>The video below shows a group playing the cooperative game with instructions to form a rectangle. Each participant has only the neighborhood view so can only see the area directly around their position. The players initially form several parts of shapes before finding the rest of the group, and show different roles and communication as they coordinate to form the final rectangle.
 
                 <div align="center" class="embed-responsive embed-responsive-16by9">
                     <video autoplay loop class="embed-responsive-item">
-                        <source src=videos/crowd_g5.mp4 type=video/mp4>
+                        <source src=videos/10-27-15_g7_6x.mp4 type=video/mp4>
                     </video>
                 </div>
 
-                We investigate distributed problem-solving in human groups over a diverse range of collective tasks that have applications to robotics, including: multirobot target tracking, formation, objects clustering, and distributed optimization. We aim to devise a generic protocol for learning microscopic models of human group behavior in complex distributed collective tasks.  </p>
+</p>
 
                 <h3><strong>Investigators</strong></h3>
                 <ul>
-                    <li>Arash Tavakoli</li>
-                    <li>Haig Nalbandian</li>
+                    <li>Elizabeth Boroson</li>
+                    <li>Sarthak Arora</li>
+                    <li>John Zeiders</li>
                     <li>Nora Ayanian</li>
                 </ul>
 
