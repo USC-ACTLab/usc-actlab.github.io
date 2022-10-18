@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Algorithm Selection for Multi-Agent Pathfinding(MAPF) Problems : ACT Lab</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/modern-business.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">ACT LAB</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active">
+                        <a href="research.html">RESEARCH</a>
+                    </li>
+                    <li>
+                        <a href="publications.html">PUBLICATIONS</a>
+                    </li>
+                    <li>
+                        <a href="group.html">GROUP</a>
+                    </li>
+                    <!--li>
+                        <a href="facility.html">FACILITIES</a>
+                    </li>
+                    <li>
+                        <a href="news.html">NEWS</a>
+                    </li-->
+                    <li>
+                        <a href="admission.html">ADMISSION</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                    <li>
+                        <a href="https://cs.brown.edu/"><img src="images/brown_logo.png" height="25"></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <!-- Page Heading/Breadcrumbs -->
+        <div class="row">
+            <div class="col-lg-12">
+                <h1 class="page-header">Algorithm Selection for Multi-Agent Pathfinding(MAPF) Problems
+                    <!--small>Subheading</small-->
+                </h1>
+                <ol class="breadcrumb">
+                    <li><a href="index.html">Home</a>
+                    </li>
+                    <li class="active">Algorithm Selection for Multi-Agent Pathfinding(MAPF) Problems</li>
+                </ol>
+            </div>
+        </div>
+        <!-- /.row -->
+
+        <!-- Portfolio Item Row -->
+        <div class="row">
+
+            <div class="col-md-8">
+                <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    </ol>
+
+                    <!-- Wrapper for slides -->
+                    <div class="carousel-inner">
+<!--                         <div class="item active">
+                            <img class="img-responsive" src="images/heterogeneous-mapping1.png" alt="">
+                        </div> -->
+                        <div class="item active">
+                            <img style="margin: 120px 0px" class="img-responsive" src="images/mapfast_cnn.png" alt="">
+                        </div>
+                        <div class="item">
+                            <img style="margin: 120px 0px" class="img-responsive" src="images/mapfast_heat.png" alt="">
+                        </div>
+                    </div>
+
+                    <!-- Controls -->
+                    <a class="left carousel-control" href="#carousel-example-generic" data-slide="prev">
+                        <span class="glyphicon glyphicon-chevron-left"></span>
+                    </a>
+                    <a class="right carousel-control" href="#carousel-example-generic" data-slide="next">
+                        <span class="glyphicon glyphicon-chevron-right"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-lg-12">
+                <h3>Description</h3>
+                <p>
+                    Solving the Multi-Agent Path Finding (MAPF) problem optimally is known to be NP-Hard for both make-span and total arrival time minimization. While many algorithms have been developed to solve MAPF problems, there is no dominating optimal MAPF algorithm that works well in all types of problems and no standard guidelines for when to use which algorithm. In this work, we build deep learning network which takes a MAPF problem instance and attempts to select the fastest algorithm to use from a portfolio of algorithms.
+                </p>
+                <p>
+                    We improve the performance of our model by including single-agent shortest paths in the instance embedding given to our model and by utilizing supplemental loss functions in addition to a classification loss. We evaluate our model on a large and diverse dataset of MAPF instances, showing that it outperforms all individual algorithms in its portfolio as well as the state-of-the-art optimal MAPF algorithm selector. We also provide an analysis of algorithm behavior in our dataset to gain a deeper understanding of optimal MAPF algorithms' strengths and weaknesses to help other researchers leverage different heuristics in algorithm designs.
+                </p>
+
+                <h3>Investigators</h3>
+                <ul>
+                    <li>Jingyao Ren</li>
+                    <li>Eric Ewing</li>
+                    <li>Baskin Senbaslar</li>
+                    <li>Vikraman Sathiyanarayanan</li>
+                    <li>Nora Ayanian</li>
+                </ul>
+
+                <h3>Funding</h3>
+                    This research was supported by NSF awards IIS-1553726, IIS-1724392, IIS-1724399, and CNS-1837779 as well as a gift from Amazon.
+                </br></br>
+
+		<h3>Related Publications</h3>
+                <ul>
+                    <li>
+                        Ren J, Sathiyanarayanan V, Ewing E, Senbaslar B, Ayanian N. "MAPFAST: A Deep Algorithm Selector for Multi Agent Path Finding using Shortest Path Embeddings". In Proceedings of the 20th International Conference on Autonomous Agents and Multi-Agent Systems (AAMAS-21) 2021 May 3 (pp. 1055-1063).
+                        <br>
+                        [
+                            <a href="publications/aamas_21_mapfast.pdf">PDF</a>
+                        ]
+                    </li>
+                    <li>
+                        Ren J, Sathiyanarayanan V, Ewing E, Senbaslar B, Ayanian N. "Automatic Optimal Multi-Agent Path Finding Algorithm Selector (Student Abstract)". In Proceedings of the AAAI Conference on Artificial Intelligence 2021 May 18 (Vol. 35, No. 18, pp. 15877-15878).
+                        <br>
+                        [
+                            <a href="publications/aaai_19_mapfast.pdf">PDF</a>
+                        ]
+                    </li>
+                </ul>
+
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <!-- Related Projects Row -->
+        <!--div class="row">
+
+            <div class="col-lg-12">
+                <h3 class="page-header">Related Projects</h3>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
+                </a>
+            </div>
+
+            <div class="col-sm-3 col-xs-6">
+                <a href="#">
+                    <img class="img-responsive img-hover img-related" src="http://placehold.it/500x300" alt="">
+                </a>
+            </div>
+
+        </div>
+        <!-- /.row -->
+
+        <hr>
+
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    <p>Copyright &copy; ACT Lab 2018</p>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
